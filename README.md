@@ -16,7 +16,8 @@ Let's Understand the Coding Part :
 
 <style>  =  The <style> tag is used to define internal CSS styles for the document.
 
-.calculator {
+.calculator
+{
     /* Styles for the calculator container */
     width: 320px;
     margin: 50px auto;
@@ -27,13 +28,15 @@ Let's Understand the Coding Part :
     font-family: 'Arial', sans-serif;
 }  =  This block of CSS code styles the calculator container. It specifies the width, margin, border, border-radius, background color, padding, and font-family for the calculator. The calculator will be centered (margin: 50px auto;) and have a light gray border with rounded corners.
 
-.row {
+.row
+{
     /* Styles for each row of buttons */
     display: flex;
     justify-content: space-between;
 }  =  This CSS code defines the style for each row of buttons. It uses flexbox (display: flex;) to arrange the buttons in a row with space between them (justify-content: space-between;).
 
-input[type="button"] {
+input[type="button"]
+{
     /* Common styles for all buttons */
     width: 70px;
     height: 70px;
@@ -44,28 +47,32 @@ input[type="button"] {
     cursor: pointer;
 }  =  This CSS code sets the common styles for all buttons. It defines the width, height, font size, margin, border, border-radius, and cursor. All buttons will have a width and height of 70px, a font size of 24px, a margin of 5px, no border, rounded corners, and a pointer cursor.
 
-.primary {
+.primary
+{
     /* Styles for number buttons */
     background-color: #e0e0e0;
     color: #333;
 }  =  This CSS code styles the number buttons with a light gray background and dark gray text.
 
 
-.operator {
+.operator
+{
     /* Styles for operator buttons */
     background-color: #ff9500;
     color: #fff;
 }  =  This CSS code styles the operator buttons (such as +, -, *, /) with an orange background and white text.
 
 
-.equal {
+.equal
+{
     /* Styles for the equal button */
     background-color: #ff3b30;
     color: #fff;
 }  =  This CSS code styles the equal button (=) with a red background and white text.
 
 
-.zero {
+.zero
+{
     /* Styles for the zero button */
     width: 150px;
 }  =  This CSS code styles the zero button, giving it a larger width of 150px compared to other number buttons
@@ -95,15 +102,18 @@ input[type="button"] {
 
 <script>  =  Opening the <script> tag to include JavaScript code.
 
-function addToResult(value) {
+function addToResult(value)
+{
     // This function appends the given value to the display
 }  =  This JavaScript function, addToResult(value), is declared. It is used to add the clicked button's value to the display.
 
-function calculateResult() {
+function calculateResult()
+{
      This function evaluates the expression in the display and displays the result
 }  =  This JavaScript function, calculateResult(), is declared. It is used to evaluate the expression in the display and display the result.
 
-function clearResult() {
+function clearResult()
+{
     // This function clears the display
 }  =  This JavaScript function, clearResult(), is declared. It is used to clear the display when the C button is clicked.
 
