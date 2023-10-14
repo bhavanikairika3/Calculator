@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Android-style Calculator</title>
     <style>
-        .calculator {
+        .calculator 
+        {
             width: 320px;
             margin: 50px auto;
             border: 2px solid #ccc;
@@ -13,7 +14,8 @@
             padding: 10px;
             font-family: 'Arial', sans-serif;
         }
-        input[type="button"] {
+        input[type="button"] 
+        {
             width: 70px;
             height: 70px;
             font-size: 24px;
@@ -22,7 +24,8 @@
             border-radius: 5px;
             cursor: pointer;
         }
-        input[type="text"] {
+        input[type="text"] 
+        {
             width: calc(100% - 20px);
             height: 40px;
             font-size: 20px;
@@ -33,26 +36,32 @@
             text-align: right;
             margin-right: 10px;
         }
-        .row {
+        .row 
+        {
             display: flex;
             justify-content: space-between;
         }
-        .row input[type="button"] {
+        .row input[type="button"] 
+        {
             flex: 1;
         }
-        .primary {
+        .primary 
+        {
             background-color: #e0e0e0;
             color: #333;
         }
-        .operator {
+        .operator 
+        {
             background-color: #ff9500;
             color: #fff;
         }
-        .equal {
+        .equal 
+        {
             background-color: #ff3b30;
             color: #fff;
         }
-        .zero {
+        .zero 
+        {
             width: 150px;
         }
     </style>
@@ -86,14 +95,17 @@
         </div>
     </div>
     <script>
-        function addToResult(value) {
+        function addToResult(value) 
+        {
             document.getElementById("result").value += value;
         }
-        function calculateResult() {
+        function calculateResult() 
+        {
             var result = eval(document.getElementById("result").value);
             document.getElementById("result").value = result;
         }
-        function clearResult() {
+        function clearResult() 
+        {
             document.getElementById("result").value = "";
         }
     </script>
