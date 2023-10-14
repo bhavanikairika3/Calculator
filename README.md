@@ -2,7 +2,7 @@
 Creating a basic calculator using HTML, CSS, and JavaScript with the functionality of add, 
 subtract, multiply and divide. 
 
-Let's Understand the Coding Part : 
+Let's Understand the Coding Part :  
 
 <html lang="en">   =  This line specifies that the document is in English (en). The <html> tag is the root element of the HTML document and contains all the other HTML elements on the page.
 
